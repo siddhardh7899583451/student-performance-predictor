@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+
+# Testing / tooling
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Gradio / runtime
+.gradio/
+flagged/
+*.log
+
+# Data that is generated or large (keep the committed CSV)
+# data/*.csv  # keep student_performance.csv tracked
